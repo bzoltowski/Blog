@@ -1,0 +1,267 @@
+body{
+padding:0;
+margin: 0;
+}
+a{
+text-decoration:none;
+}
+
+header{
+clear:both;
+width:100%;
+height:76vh;
+background-color:#202627;
+position:relative
+}
+#header_center{
+margin: 0 auto;
+height:75vh;
+width:100%;
+background-image:url("../img/gallery/about_bg.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+#header_txt{
+
+text-align:center;
+font-family:Segoe UI Light;
+font-size:30px;
+width:100%;
+color:white;
+height:54px;
+}
+
+#header_txt_bg{
+width:100%;
+height:48px;
+background-color:#535f5d;
+position:absolute;
+bottom:0;
+}
+
+
+#menu{
+width:100%;
+height:64px;
+background-color:#535f5d;
+position:fixed;
+top:0;
+z-index:10;
+}
+#menu_logo{
+margin:0 auto;
+
+width:240px;
+height:100%;
+background-image:url("../img/logo_menu.png");
+background-repeat:no-repeat;
+background-size:85%;
+background-position-x:50%;
+float:left;
+}
+
+#menu_ref{
+width:730px;
+padding-top:10px;
+height:54px;
+font-family: Segoe UI;
+font-size:28px;
+float:left;
+text-align:center;
+color:#ddd5c9;
+}
+#menu_A{
+color:white;
+font-family: Segoe UI;
+font-size:28px;
+text-decoration:none;
+}
+
+#graphic_bg{
+position:absolute;
+width:100%;
+height:1147px;
+margin-top:100px;
+z-index:-1;
+}
+#graphic_bg_left, #graphic_bg_right{
+float:left;
+height:100%;
+}
+#graphic_bg1_1{
+width:100%;
+height:255px;
+background-color:#a9afae;
+}
+#graphic_bg1_2{
+margin-top:255px;
+width:100%;
+height:255px;
+background-color:#a9afae;
+}
+#graphic_bg2_1{
+margin-top:127px;
+width:100%;
+height:255px;
+background-color:#a9afae;
+}
+#graphic_bg2_2{
+margin-top:255px;
+width:100%;
+height:255px;
+background-color:#a9afae;
+}
+#main{
+width:1080px;
+height:1222px;
+margin:0 auto;
+}
+
+
+
+#post_txt{
+margin-left:100px;
+font-family: Segoe UI;
+font-size:13px;
+margin-top:25px;
+height:75px;
+width:710px;
+}
+
+#graphic{
+margin-left:150px;
+width:510px;
+height:1147	px;
+}
+#graphic_front_1, #graphic_front_2{
+width:50%;
+height:100%;
+float:left;
+}
+#graphic_pic1_1, #graphic_pic1_2, #graphic_pic1_3, #graphic_pic1_4, #graphic_pic2_1, #graphic_pic2_2, #graphic_pic2_3, #graphic_pic2_4{
+width:100%;
+height:255px;
+background-position:50% 50%;
+background-repeat:no-repeat;
+background-size:100%;
+opacity:1;
+}
+
+#graphic_pic1_1:hover, #graphic_pic1_2:hover, #graphic_pic1_3:hover, #graphic_pic1_4:hover, #graphic_pic2_1:hover, #graphic_pic2_2:hover, #graphic_pic2_3:hover, #graphic_pic2_4:hover{
+background-size:105%;
+opacity:.5;
+-webkit-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+-ms-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+transition: 1s ease-in-out;
+
+}
+#graphic_pic1_1{
+background-image:url("../graphic/gallery/startup.jpg");
+}
+#graphic_pic1_2{
+background-image:url("../graphic/gallery/vapemaniak.jpg");
+}
+#graphic_pic1_3{
+background-image:url("../graphic/gallery/summer.jpg");
+}
+#graphic_pic1_4{
+background-image:url("../graphic/gallery/KendoLogo.png");
+}
+#graphic_pic2_1{
+margin-top:127px;
+background-image:url("../graphic/gallery/vipmeble.jpg");
+}
+#graphic_pic2_2{
+background-image:url("../graphic/gallery/repllisse.jpg");
+}
+#graphic_pic2_3{
+background-image:url("../graphic/gallery/Kendo_Youtube_Tlo.png");
+}
+#graphic_pic2_4{
+background-image:url("../graphic/gallery/mylogo.jpg");
+}
+
+#post_more{
+font-family: Segoe UI;
+font-size:12px;
+width:64px;
+height:24px;
+text-align:center;
+color:white;
+background-color:#6e787a;
+float:right;
+}
+#menu_right{
+width:270px;
+height:400px;
+float:left;
+color:#535e5d;
+
+}
+#menu_right a{
+color:#535e5d;
+}
+#m_new_posts, #m_arch, #m_tag{
+margin-top:22px;
+}
+#m_new_posts, #m_arch, #m_tag{
+margin-top:19px;
+}
+#m_new_posts_head, #m_arch_head, #m_tag_head{
+font-family: Segoe UI Black;
+font-size:18px;
+}
+#m_new_posts_link, #m_arch_link{
+font-family: Segoe UI Light;
+font-size:16px;
+font-style:italic;
+
+}
+#m_new_posts_link{
+text-indent:20px;
+}
+#m_arch_link{
+text-indent:40px;
+}
+#m_arch_month{
+font-family: Segoe UI;
+font-size:16px;
+font-style:italic;
+text-indent:20px;
+}
+#m_right_bgr{
+height:400px;
+right:0;
+position:absolute;
+background-color:#e5e5e5;
+}
+
+footer{
+width:100%;
+height:30px;
+color:white;
+font-family: Segoe UI Light;
+font-size:16px;
+position:relative;
+bottom:0;
+background-color:#535e5d;
+}
+#footer_txt_left
+{
+width:50%;
+height:100%;
+float:left;
+}
+
+#footer_txt_right{
+width:50%;
+height:100%;
+float:right;
+text-align:right;
+}
+#footer_txt_right a{
+color:white;
+}

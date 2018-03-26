@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/css_graphic.css">
+<title>Grafika | Bartek Żółtowski</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	var bg_rMenu = ($(window).width() * .5) - 270 ;
+	var bg_graphic_l = ($(window).width() * .5) - 135 ;
+	var bg_graphic_r = ($(window).width() * .5) + 135 ;
+	$('#m_right_bgr').css({"width":bg_rMenu});
+	$('#graphic_bg_left').css({"width":bg_graphic_l});
+	$('#graphic_bg_right').css({"width":bg_graphic_r});
+	graphic_bg_left
+	$(window).scroll(function(){
+		if( $(this).scrollTop() < ($(window).height() * .76)-64 ){
+			$('#m_right_bgr').css({"position":"absolute", "top":"unset", "margin-top":"0px"});
+		} else {
+			$('#m_right_bgr').css({"position":"fixed", "top":"0", "margin-top":"64px"});
+		}
+	});
+});
+</script>
+</head>
+<body>
+<header>
+	<div id="header_center">
+			<div id="header_txt_bg">
+				<div id="header_txt">GRAFIKA();</div>
+			</div>
+				
+		</div>
+	</div>
+</header>
+<div id="menu">
+	<div style="width:1080px;height:64px;margin:0 auto;">
+	<a href="../index.html"><div id="menu_logo"></div></a>
+	<div id="menu_ref">
+		<a id="menu_A" href="../about/about.html">{O MNIE}</a>\t<a id="menu_A" href="../programing/prog.html">{PROGRAMOWANIE}</a>\t<a id="menu_A" href="graphic.html">{GRAFIKA}</a>\t<a id="menu_A" href="../contact/contact.html">{KONTAKT}</a>
+	</div>
+	</div>
+</div>
+<div id="new_posts_bg"></div>
+
+<div id="m_right_bgr">
+	<div id="menu_right">
+		<div id="m_new_posts">
+			<div id="m_new_posts_head">NOWE WPISY</div>
+			<div id="m_new_posts_link"><a href="../../prog/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+			<div id="m_new_posts_link"><a href="../../prog/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+			<div id="m_new_posts_link"><a href="topic/Lorem_ipsum_dolor_sit_amet.html">[G]Lorem ipsum dolor sit amet</a></div>
+		</div>
+		<div id="m_arch">
+			<div id="m_arch_head">ARCHIWUM</div>
+			<div id="m_arch_month">Październik 2017</div>
+				<div id="m_arch_link"><a href="">Lorem ipsum dolor sit amet</a></div>
+			<div id="m_arch_month">Wrzesień 2017</div>
+				<div id="m_arch_link"><a href="../../prog/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+				<div id="m_arch_link"><a href="topic/Lorem_ipsum_dolor_sit_amet.html">[G]Lorem ipsum dolor sit amet</a></div>
+		</div>
+		<div id="m_tag">
+			<div id="m_tag_head">TAGS</div>
+			<div id="m_tag_txt">
+			Lorem ipsum dolor sit amet id pro saperet partiendo est ei populo mentitum argumentum
+			</div>
+		</div>
+	</div>
+</div>
+<div id="graphic_bg">
+	<div id="graphic_bg_left">
+		<div id="graphic_bg1_1"></div>
+		<div id="graphic_bg1_2"></div>
+	</div>
+	<div id="graphic_bg_right">
+		<div id="graphic_bg2_1"></div>
+		<div id="graphic_bg2_2"></div>
+	</div>
+</div>
+<div id="main">
+	<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+	</div>
+	<div id="graphic">
+		<div id="graphic_front_1">
+			<div id="graphic_pic1_1">
+			</div>
+			<div id="graphic_pic1_2">
+			</div>
+			<div id="graphic_pic1_3">
+			</div>
+			<div id="graphic_pic1_4">
+			</div>
+		</div>
+		<div id="graphic_front_2">
+			<div id="graphic_pic2_1">
+			</div>
+			<div id="graphic_pic2_2">
+			</div>
+			<div id="graphic_pic2_3">
+			</div>
+			<div id="graphic_pic2_4">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<footer>
+<div style="width:1080px;height:100%;margin:0 auto;">
+	<div id="footer_txt_left">Copyright by Bartek Żółtowski | 2017</div>
+	<div id="footer_txt_logo"></div>
+	<div id="footer_txt_right"><a href="">Polityka Prywatności</a></div>
+	</div>
+</footer>
+</body>
+</html>

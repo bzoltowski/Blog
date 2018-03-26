@@ -1,0 +1,214 @@
+body{
+padding:0;
+margin: 0;
+}
+a{
+text-decoration:none;
+}
+
+header{
+clear:both;
+width:100%;
+height:76vh;
+background-color:#202627;
+position:relative
+}
+#header_center{
+margin: 0 auto;
+height:75vh;
+width:100%;
+background-image:url("../img/gallery/about_bg.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+#header_txt{
+
+text-align:center;
+font-family:Segoe UI Light;
+font-size:30px;
+width:100%;
+color:white;
+height:54px;
+}
+
+#header_txt_bg{
+width:100%;
+height:48px;
+background-color:#535f5d;
+position:absolute;
+bottom:0;
+}
+
+
+#menu{
+width:100%;
+height:64px;
+background-color:#535f5d;
+position:fixed;
+top:0;
+}
+#menu_logo{
+margin:0 auto;
+
+width:240px;
+height:100%;
+background-image:url("../img/logo_menu.png");
+background-repeat:no-repeat;
+background-size:85%;
+background-position-x:50%;
+float:left;
+}
+
+#menu_ref{
+width:730px;
+padding-top:10px;
+height:54px;
+font-family: Segoe UI;
+font-size:28px;
+float:left;
+text-align:center;
+color:#ddd5c9;
+}
+#menu_A{
+color:white;
+font-family: Segoe UI;
+font-size:28px;
+text-decoration:none;
+}
+#main{
+width:1080px;
+height:1875px;
+margin:0 auto;
+}
+#free_space{
+width:100px;
+height:100%;
+float:left;
+}
+#new_posts{
+width:710px;
+height:100%;
+float:left;
+}
+#post{
+width:100%;
+height:350px;
+color:#535e5d;
+margin-top:25px;
+}
+
+#post_title{
+font-family: Segoe UI;
+font-style:italic;
+font-size:16px;
+height:24px;
+padding-top:2px;
+}
+
+#post_txt{
+font-family: Segoe UI;
+font-size:13px;
+padding-top:10px;
+height:266px;
+}
+#post_date{
+font-family: Segoe UI;
+font-size:12px;
+height:22px;
+padding-top:2px;
+}
+
+#post_more{
+font-family: Segoe UI;
+font-size:12px;
+width:64px;
+height:24px;
+text-align:center;
+color:white;
+background-color:#6e787a;
+float:right;
+}
+#menu_right{
+width:270px;
+height:375px;
+float:left;
+color:#535e5d;
+
+}
+#menu_right a{
+color:#535e5d;
+}
+#m_new_posts, #m_arch, #m_tag{
+margin-top:22px;
+}
+#m_new_posts, #m_arch, #m_tag{
+margin-top:19px;
+}
+#m_new_posts_head, #m_arch_head, #m_tag_head{
+font-family: Segoe UI Black;
+font-size:18px;
+}
+#m_new_posts_link, #m_arch_link{
+font-family: Segoe UI Light;
+font-size:16px;
+font-style:italic;
+
+}
+#m_new_posts_link{
+text-indent:20px;
+}
+#m_arch_link{
+text-indent:40px;
+}
+#m_arch_month{
+font-family: Segoe UI;
+font-size:16px;
+font-style:italic;
+text-indent:20px;
+}
+#m_right_bg
+{
+width:100%;
+height:375px;
+position:absolute;
+}
+#m_right_bgl{
+width:50%;
+height:100%;
+float:left;
+}
+#m_right_bgr{
+height:100%;
+float:left;
+background-color:#e5e5e5;
+}
+
+
+
+footer{
+width:100%;
+height:30px;
+color:white;
+font-family: Segoe UI Light;
+font-size:16px;
+position:relative;
+bottom:0;
+background-color:#535f5d;
+}
+#footer_txt_left
+{
+width:50%;
+height:100%;
+float:left;
+}
+
+#footer_txt_right{
+width:50%;
+height:100%;
+float:right;
+text-align:right;
+}
+#footer_txt_right a{
+color:white;
+}

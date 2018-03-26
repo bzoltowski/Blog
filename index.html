@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/css_main.css">
+<title>News | Bartek Żółtowski</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('header').on('click',function(event){
+		var target =$('#main') ;
+		event.preventDefault();
+		$('html,body').animate({scrollTop:target.offset().top - 64},1000);
+
+	});
+	var bg_rMenu = ($(window).width() * .5) - 270 ;
+	$('#m_right_bgr').css({"width":bg_rMenu});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() < $(window).height() ){
+			$('#menu').css({"position":"absolute", "top":"unset"});
+			$('#m_right_bgr').css({"position":"absolute", "top":"unset"});
+		} else {
+			$('#menu').css({"position":"fixed", "top":"0"});
+			$('#m_right_bgr').css({"position":"fixed", "top":"0"});
+		}
+	});
+
+});
+
+</script>
+</head>
+<body>
+
+<header>
+	<div id="header_logo" class="glitch">
+		<div id="header_txt">
+			<div id="header_txt_name">BARTEK ŻÓŁTOWSKI</div>
+			<div id="header_txt_des">WINDOWS, LINUX, C, C++, WEB, PHOTOSHOP, ILLUSTRATOR</div>
+		</div>
+		<div id="header_arrow"></div>
+			
+	</div>
+</header>
+<div 
+<div id="menu">
+	<div style="width:1080px;height:64px;margin:0 auto;">
+	<a href="index.html"><div id="menu_logo"></div></a>
+	<div id="menu_ref">
+		<a id="menu_A" href="./about/about.html">{O MNIE}</a>\t<a id="menu_A" href="./programing/prog.html">{PROGRAMOWANIE}</a>\t<a id="menu_A" href="./graphic/graphic.html">{GRAFIKA}</a>\t<a id="menu_A" href="./contact/contact.html">{KONTAKT}</a>
+	</div>
+	</div>
+</div>
+
+<div id="m_right_bgr">
+			       <div id="menu_right">
+	        	<div id="m_new_posts">
+	        		<div id="m_new_posts_head">NOWE WPISY</div>
+	        		<div id="m_new_posts_link"><a href="./programing/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+	        		<div id="m_new_posts_link"><a href="./programing/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+	        		<div id="m_new_posts_link"><a href="./graphic/topic/Lorem_ipsum_dolor_sit_amet.html">[G]Lorem ipsum dolor sit amet</a></div>
+	        	</div>
+	        	<div id="m_arch">
+	        		<div id="m_arch_head">ARCHIWUM</div>
+	        		<div id="m_arch_month">Październik 2017</div>
+	        			<div id="m_arch_link"><a href="">Lorem ipsum dolor sit amet</a></div>
+	        		<div id="m_arch_month">Wrzesień 2017</div>
+	        			<div id="m_arch_link"><a href="./programing/topic/Lorem_ipsum_dolor_sit_amet.html">[P]Lorem ipsum dolor sit amet</a></div>
+	        			<div id="m_arch_link"><a href="./graphic/topic/Lorem_ipsum_dolor_sit_amet.html">[G]Lorem ipsum dolor sit amet</a></div>
+	        	</div>
+	        	<div id="m_tag">
+	        		<div id="m_tag_head">TAGS</div>
+	        		<div id="m_tag_txt">
+	        		Lorem ipsum dolor sit amet id pro saperet partiendo est ei populo mentitum argumentum
+	        		</div>
+	        	</div>
+	        </div>
+</div>
+
+<div style="height:64px"></div>
+<div id="main">
+
+	<div id="new_posts">
+		<div id="post">
+			<a href=""><div id="post_header">Programowanie();</div></a>
+			<div id="post_title">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum.</div>
+			<div id="post_date">2017-09-21 | Bartek</div>
+			<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+Mel ut dictas iracundia sadipscing, pro aliquip omittantur no. Stet repudiandae vim ea. Qui munere populo salutandi ne, ex cum soleat gloriatur interpretaris. Sed no explicari molestiae, et sea perfecto gloriatur, prompta diceret has at. Mei ei modo delectus dissentiunt. Splendide vituperatoribus ne eum.</br>
+Sea illum alterum vivendo no, velit aeque reprehendunt cu cum. Pri ex esse tacimates. Ne sea causae invidunt, nostrum contentiones an sed. Quo ex ridens iisque, legere pericula id pro. Ne nam delectus constituto quaerendum, eum sale solum eripuit no.</br>
+Sed nemore accumsan contentiones et, ut vix zril tritani reformidans. Nihil causae tamquam cu mel. Eos an dolor decore, vim ei oblique saperet accusam. Omnium abhorreant an qui, eos luptatum recusabo cu. Amet congue delenit ei est. Sea et zril accusata, nisl equidem ei mei.</br>
+Ei usu civibus phaedrum, eu vim odio sanctus dolorem, in sale mollis malorum sed. Mel purto decore assentior an. Eu esse mutat mei, sed ut sumo propriae appareat, mea dicta luptatum mnesarchum no. Solum aliquid per in, sea unum aliquid utroque ne. ...
+			</div>
+			<a href="./programing/topic/Lorem_ipsum_dolor_sit_amet.html" ><div id="post_more"><div style="padding-top:3px">MORE >></div></div></a>
+		</div>
+		
+		<div id="post">
+			<a href=""><div id="post_header">Grafika();</div></a>
+			<div id="post_title">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum.</div>
+			<div id="post_date">2017-09-21 | Bartek</div>
+			<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+Mel ut dictas iracundia sadipscing, pro aliquip omittantur no. Stet repudiandae vim ea. Qui munere populo salutandi ne, ex cum soleat gloriatur interpretaris. Sed no explicari molestiae, et sea perfecto gloriatur, prompta diceret has at. Mei ei modo delectus dissentiunt. Splendide vituperatoribus ne eum.</br>
+Sea illum alterum vivendo no, velit aeque reprehendunt cu cum. Pri ex esse tacimates. Ne sea causae invidunt, nostrum contentiones an sed. Quo ex ridens iisque, legere pericula id pro. Ne nam delectus constituto quaerendum, eum sale solum eripuit no.</br>
+Sed nemore accumsan contentiones et, ut vix zril tritani reformidans. Nihil causae tamquam cu mel. Eos an dolor decore, vim ei oblique saperet accusam. Omnium abhorreant an qui, eos luptatum recusabo cu. Amet congue delenit ei est. Sea et zril accusata, nisl equidem ei mei.</br>
+Ei usu civibus phaedrum, eu vim odio sanctus dolorem, in sale mollis malorum sed. Mel purto decore assentior an. Eu esse mutat mei, sed ut sumo propriae appareat, mea dicta luptatum mnesarchum no. Solum aliquid per in, sea unum aliquid utroque ne. ...
+			</div>
+			<a href=""><div id="post_more"><div style="padding-top:3px">MORE >></div></div></a>
+		</div>
+		<div id="post">
+			<a href=""><div id="post_header">Grafika();</div></a>
+			<div id="post_title">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum.</div>
+			<div id="post_date">2017-09-21 | Bartek</div>
+			<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+Mel ut dictas iracundia sadipscing, pro aliquip omittantur no. Stet repudiandae vim ea. Qui munere populo salutandi ne, ex cum soleat gloriatur interpretaris. Sed no explicari molestiae, et sea perfecto gloriatur, prompta diceret has at. Mei ei modo delectus dissentiunt. Splendide vituperatoribus ne eum.</br>
+Sea illum alterum vivendo no, velit aeque reprehendunt cu cum. Pri ex esse tacimates. Ne sea causae invidunt, nostrum contentiones an sed. Quo ex ridens iisque, legere pericula id pro. Ne nam delectus constituto quaerendum, eum sale solum eripuit no.</br>
+Sed nemore accumsan contentiones et, ut vix zril tritani reformidans. Nihil causae tamquam cu mel. Eos an dolor decore, vim ei oblique saperet accusam. Omnium abhorreant an qui, eos luptatum recusabo cu. Amet congue delenit ei est. Sea et zril accusata, nisl equidem ei mei.</br>
+Ei usu civibus phaedrum, eu vim odio sanctus dolorem, in sale mollis malorum sed. Mel purto decore assentior an. Eu esse mutat mei, sed ut sumo propriae appareat, mea dicta luptatum mnesarchum no. Solum aliquid per in, sea unum aliquid utroque ne. ...
+			</div>
+			<a href="" ><div id="post_more"><div style="padding-top:3px">MORE >></div></div></a>
+		</div>
+		
+		<div id="post">
+			<a href=""><div id="post_header">Grafika();</div></a>
+			<div id="post_title">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum.</div>
+			<div id="post_date">2017-09-21 | Bartek</div>
+			<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+Mel ut dictas iracundia sadipscing, pro aliquip omittantur no. Stet repudiandae vim ea. Qui munere populo salutandi ne, ex cum soleat gloriatur interpretaris. Sed no explicari molestiae, et sea perfecto gloriatur, prompta diceret has at. Mei ei modo delectus dissentiunt. Splendide vituperatoribus ne eum.</br>
+Sea illum alterum vivendo no, velit aeque reprehendunt cu cum. Pri ex esse tacimates. Ne sea causae invidunt, nostrum contentiones an sed. Quo ex ridens iisque, legere pericula id pro. Ne nam delectus constituto quaerendum, eum sale solum eripuit no.</br>
+Sed nemore accumsan contentiones et, ut vix zril tritani reformidans. Nihil causae tamquam cu mel. Eos an dolor decore, vim ei oblique saperet accusam. Omnium abhorreant an qui, eos luptatum recusabo cu. Amet congue delenit ei est. Sea et zril accusata, nisl equidem ei mei.</br>
+Ei usu civibus phaedrum, eu vim odio sanctus dolorem, in sale mollis malorum sed. Mel purto decore assentior an. Eu esse mutat mei, sed ut sumo propriae appareat, mea dicta luptatum mnesarchum no. Solum aliquid per in, sea unum aliquid utroque ne. ...
+			</div>
+			<a href=""><div id="post_more"><div style="padding-top:3px">MORE >></div></div></a>
+		</div>
+		<div id="post">
+			<a href=""><div id="post_header">Programowanie();</div></a>
+			<div id="post_title">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum.</div>
+			<div id="post_date">2017-09-21 | Bartek</div>
+			<div id="post_txt">Lorem ipsum dolor sit amet, id pro saperet partiendo, est ei populo mentitum argumentum. Mei tritani feugiat copiosae no. Mel te facer integre volutpat, an viris atomorum definitionem his. At mel possim iuvaret copiosae, harum tacimates pro in. Ex sea stet dicam appareat, ut accusam nostrum per.</br>
+Mel ut dictas iracundia sadipscing, pro aliquip omittantur no. Stet repudiandae vim ea. Qui munere populo salutandi ne, ex cum soleat gloriatur interpretaris. Sed no explicari molestiae, et sea perfecto gloriatur, prompta diceret has at. Mei ei modo delectus dissentiunt. Splendide vituperatoribus ne eum.</br>
+Sea illum alterum vivendo no, velit aeque reprehendunt cu cum. Pri ex esse tacimates. Ne sea causae invidunt, nostrum contentiones an sed. Quo ex ridens iisque, legere pericula id pro. Ne nam delectus constituto quaerendum, eum sale solum eripuit no.</br>
+Sed nemore accumsan contentiones et, ut vix zril tritani reformidans. Nihil causae tamquam cu mel. Eos an dolor decore, vim ei oblique saperet accusam. Omnium abhorreant an qui, eos luptatum recusabo cu. Amet congue delenit ei est. Sea et zril accusata, nisl equidem ei mei.</br>
+Ei usu civibus phaedrum, eu vim odio sanctus dolorem, in sale mollis malorum sed. Mel purto decore assentior an. Eu esse mutat mei, sed ut sumo propriae appareat, mea dicta luptatum mnesarchum no. Solum aliquid per in, sea unum aliquid utroque ne. ...
+			</div>
+			<a href="./programing/topic/Lorem_ipsum_dolor_sit_amet.html" ><div id="post_more"><div style="padding-top:3px">MORE >></div></div></a>
+		</div>
+	</div>
+
+</div>
+
+<footer>
+<div style="width:1080px;height:100%;margin:0 auto;">
+	<div id="footer_txt_left">Copyright by Bartek Żółtowski | 2017</div>
+	<div id="footer_txt_logo"></div>
+	<div id="footer_txt_right"><a href="">Polityka Prywatności</a></div>
+	</div>
+</footer>
+</body>
+</html>
